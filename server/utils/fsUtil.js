@@ -3,6 +3,8 @@ const path = require('path');
 const moment = require('moment');
 const {promisify} = require('util');
 
+const PATH_TO_VIEWS = path.join(__dirname, '../../views/');
+
 const readFileAsync = promisify(fs.readFile);
 const readDirAsync = promisify(fs.readdir);
 
@@ -11,7 +13,7 @@ const readFileFromViews = (viewsPathToFile) => {
     if (typeof viewsPathToFile !== 'string')
       throw new Error('expected viewsPathToFile to be a string');
     return readFileAsync(
-      path.join(__dirname, '../views/', viewsPathToFile),
+      path.resolve(PATH_TO_VIEWS, viewsPathToFile),
       'utf-8'
     );
   } catch (e) {
@@ -28,7 +30,7 @@ const readFileFromViewsSync = (viewsPathToFile) => {
     if (typeof viewsPathToFile !== 'string')
       throw new Error('expected viewsPathToFile to be a string');
     return fs.readFileSync(
-      path.join(__dirname, '../views/', viewsPathToFile),
+      path.resolve(PATH_TO_VIEWS, viewsPathToFile),
       'utf-8'
     );
   } catch (e) {
@@ -44,7 +46,7 @@ const readDirFromViews = (viewsPathToDir) => {
   try {
     if (typeof viewsPathToDir !== 'string')
       throw new Error('expected viewsPathToDir to be a string');
-    return readDirAsync(path.join(__dirname, '../views/', viewsPathToDir));
+    return readDirAsync(path.resolve(PATH_TO_VIEWS, viewsPathToDir));
   } catch (e) {
     console.log(
       `ERROR: ${moment()}: reading dir from views dir in yamlUtil.js: `,
