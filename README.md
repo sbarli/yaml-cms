@@ -2,6 +2,17 @@
 
 This project highlights a custom content management system using [YAML](https://yaml.org/), [React.js](https://reactjs.org/), and [Node.js](https://nodejs.org/).
 
+## Getting Started
+
+* run `npm install` to ensure you have the latest dependencies
+* for general development purposese, run `npm run dev`: this will startup both the React app (on port 3000) and the Node API (on port 8080). A proxy is alredy configured to send the API requests to 8080 without CORS issue.
+
+### Additional scripts
+
+* all the basic CRA scripts (more details [here](./docs/CRA-README.md))
+* `dev:server`: runs the `npm run start:server` script with the `NODE_ENV` set to `development`
+* `start:server`: starts up the API with nodemon to watch for changes
+
 ## Requesting Content
 
 All yaml content lives within the `views` directory. This content should be fetched from the Node.js API because it does not simply serve the static yaml files, but processes and formats them for the React app.
