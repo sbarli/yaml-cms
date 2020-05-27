@@ -1,0 +1,31 @@
+id: read-what-is-js
+header: 
+  content: 'Javascript: What is it?'
+  size: h1
+content:
+  - header: 
+      content: JavaScript is Everywhere!
+      size: h2
+  - description: 'Not to be confused with Java, JavaScript is the language of the modern web. Along with HTML and CSS, it has become an essential web technology.  If you want to get into web development, it is necessary that you learn JavaScript.'
+  - description: 'Users today expect a lot from their online experience.  They want web applications that are fast, responsive and efficient.  This is what JavaScript does, and for now, there’s no replacement.'
+  - description: 'You use JavasScript every day, whether you know it or not. It might be something to make your life easier, like your calendar app, or maybe it’s something to help you stay in contact with your friends like Instagram.  Whether you’re sharing documents, catching up on the world by reading a digital news site, watching videos online, or any of the million things we do online daily, you’re encountering and working with JavaScript somewhere behind the scenes.'
+  - header: 
+      content: The Modern Web
+      size: h2
+  - description: 'Modern web architecture is comprised of three key ingredients: HTML, CSS, and JavaScript.'
+  - description: 'Think about it like this. If our webpage is a car, HTML is the frame of the car, CSS is the styling of the car, the color of the car, the rims of the car, etc, and JavaScript is the engine.  It’s what makes our car do what a car is supposed to do: DRIVE!'
+  - header: 
+      content: HTML
+      size: h2
+  - description: 'HTML, Hypertext Markup Language, is the backbone of the web. It’s right underneath the surface of everything you see on the web. HTML is a markup language, which means that it tells the browser how to display information. Whether it’s the text of a paragraph, or a link, HTML is what gives our sites their content.'
+  - header: 
+      content: CSS
+      size: h2
+  - description: 'CSS stands for Cascading Style Sheets with and emphasis on “Style.”  While HTML is used to structure a webpage, CSS comes through and specifies your document’s style.  Page layouts, colors, and fonts are all determined with CSS. Think of HTML as the foundation (every house has one), and CSS as the aesthetic choices.'
+  - header: 
+      content: JavaScript
+      size: h2
+  - description: 'JavaScript, or "JS" for short, is a full-fledged dynamic programming language that, when applied to an HTML document, can provide dynamic interactivity on websites.'
+  - description: 'What you can do with JavaScript in the browser can be broken down into two categories. First, is JavaScript’s ability to interact with the browser elements we mentioned before (HTML/CSS). Second, is the ability JavaScript gives us in shaping and manipulating data.'
+  - description: 'Let’s say someone named Brandon visited our website and entered his name into the an HTML text field. With the power of JavaScript we can read his entry and create interactive content that is unique to him! Now, whenever Brandon visits our website again we will be able to display a greeting, such as, ‘Welcome back, Brandon!’'
+  - description: 'When combining JavaScript with HTML & CSS, software engineers are able to make interactive web applications that are creative, powerful, fast, and unique! This is just the beginning of a very exciting journey.'

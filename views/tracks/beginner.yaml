@@ -1,0 +1,15 @@
+id: beginner
+header: 
+  content: Beginner
+  size: h1
+tagline:
+  - 'This track is designed for complete beginners to JavaScript and programming in general.'
+topics:
+  - unorderedList:
+      - Intro to Programming
+      - Data Types
+      - Variables
+      - Looping
+      - Control Flow
+units:
+  - fundamentals

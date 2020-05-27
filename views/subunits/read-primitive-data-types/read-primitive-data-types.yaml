@@ -1,0 +1,19 @@
+id: read-primitive-data-types
+header: 
+  content: 'Primitive Data Types'
+  size: h1
+content:
+  - header: 
+      content: What are data types?
+      size: h2
+  - description: 'JavaScript includes data types similar to other programming languages like Java or C#. Data type indicates characteristics of data. It tells the compiler whether the data value is numeric, alphabetic, etc., so that it can perform the appropriate operation.'
+  - description: 'Primitive data types include:'
+  - orderedList:
+      - listItem: <strong>String:</strong> a series of characters (letters, numbers, spaces, symbols, etc.) wrapped in quotes
+      - listItem: <strong>Number:</strong> integers, floats, etc
+      - listItem: <strong>Boolean:</strong> true or false
+      - listItem: <strong>Null:</strong> intentionaly having no value
+      - listItem: <strong>Undefined:</strong> a declared variable that hasn't been assigned a value yet
+      - listItem: <strong>Symbol:</strong> a unique value that's not equal to any other value.  Note, this is an ES6 feature that never really took off, so don't worry about it for now.
+  - description: 'Here are some examples of primitive data types:'
+  - codeBlock: read-primitive-data-types-block-1.txt

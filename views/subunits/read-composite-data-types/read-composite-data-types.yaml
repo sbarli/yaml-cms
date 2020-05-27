@@ -1,0 +1,12 @@
+id: read-composite-data-types
+header: 
+  content: 'Composite Data Types'
+  size: h1
+content:
+  - description: 'Composite data types include:'
+  - orderedList:
+    - listItem: <strong>Object:</strong> Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life. Objects are standalone entities, with properties stored in key/value pairs. Compare it with a person, for example. A person is an object, with properties. A person has a race, a date of birth, a weight, a height, an eye color, etc. The same way, JavaScript objects can have properties, which define their characteristics.
+    - listItem: <strong>Array:</strong> Used to store multiple values in a single variable.  Similar to a list.  <em>Technically</em>, arrays are objects in JavaScript, but we'll dive into that more in second half of the pre-course.
+  - description: 'Here are some examples of composite data types:'
+  - codeBlock: read-composite-data-types-block-1.txt
+  - description: 'Take note of the fact that Arrays & Objects can contain an assortment of different data types all stored inside one variable!  This is what makes them <em>Composite</em> data types by definition.'

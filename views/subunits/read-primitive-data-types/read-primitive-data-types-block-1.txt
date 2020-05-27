@@ -1,0 +1,9 @@
+// String
+const name = "Kyle"; // <= quotes tell us this is a string
+
+// Number
+const favNum = 17;
+
+// Boolean
+const iLoveCoding = true; // <= no quotes
+const iLoveBeets = false;

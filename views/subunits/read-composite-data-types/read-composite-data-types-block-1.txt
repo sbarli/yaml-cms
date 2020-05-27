@@ -1,0 +1,11 @@
+// Object
+const person = {
+  name: "Bart Simpson",
+  dob: "02/23/88", 
+  weight: 65,
+  hairColor: "blonde" 
+}
+
+// Array
+const fruits = ["apples", "oranges", "pears", "bananas"];
+const myArray = [21, "pear", [3, 7, 22], { objectsToo: true }];
