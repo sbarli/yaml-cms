@@ -1,9 +1,9 @@
 import React from 'react';
 import { contentKeyMap } from './constants';
 
-import Paragraph from '../ui/Paragraph/Paragraph';
-import Header from '../ui/Header/Header';
-import Codeblock from '../ui/Codeblock/Codeblock';
+import Paragraph from '../components/ui/Paragraph/Paragraph';
+import Header from '../components/ui/Header/Header';
+import Codeblock from '../components/ui/Codeblock/Codeblock';
 
 export const generateContent = (rawContent, contentId) => {
   if (typeof rawContent === 'string') {

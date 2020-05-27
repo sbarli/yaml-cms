@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components/macro';
 import { contentPageProps } from '../utils/constants';
 import Content from './Content';
-import Header from '../ui/Header/Header';
+import Header from './ui/Header/Header';
 
 const StyledApp = styled.main`
   display: grid;

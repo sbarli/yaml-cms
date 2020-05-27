@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components/macro';
 
-import Header from '../ui/Header/Header';
-import Button from '../ui/Button/Button';
-import Group from '../ui/Group/Group';
+import Header from './ui/Header/Header';
+import Button from './ui/Button/Button';
+import Group from './ui/Group/Group';
 
 import { contentPageProps } from '../utils/constants';
 import { generateContent } from '../utils/contentParser';
