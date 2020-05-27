@@ -137,11 +137,11 @@ module.exports = yamlUtil;
 //    *              checks for any code and/or test keys and invokes helper
 //    *              function to populate those values from other files.
 //    *              then invokes replaceCodeBlockContent to recursively check/replace
-//    *              any 'codeBlock' keys in the yaml
+//    *              any 'codeblock' keys in the yaml
 //    * @param {str} challengeFolder folder name where challenge content can be found
 //    * @param {str} challengeId id of challenge which should have corresponding folder
 //    *                          and yaml file in the challengeFoler directory.
-//    * @returns {obj} populated challenge yaml with populated code, test, and codeBlock keys
+//    * @returns {obj} populated challenge yaml with populated code, test, and codeblock keys
 //    */
 //   populateChallengeData: function (challengeFolder, challengeId) {
 //     try {
@@ -165,18 +165,18 @@ module.exports = yamlUtil;
 
 //   /**
 //    * @name yamlUtil.replaceCodeBlockContent
-//    * @description recursively traverses yamlObj param to populate any 'codeBlock'
+//    * @description recursively traverses yamlObj param to populate any 'codeblock'
 //    *              keys with actual content from specified challengeFolder and challengeId
 //    * @param {str} challengeFolder folder name where challenge content can be found
 //    * @param {str} challengeId id of challenge which should have corresponding folder
 //    *                          and yaml file in the challengeFoler directory.
-//    * @returns {obj} populated yamlObj with codeBlock content
+//    * @returns {obj} populated yamlObj with codeblock content
 //    */
 //   replaceCodeBlockContent: function (challengeFolder, challengeId, yamlObj) {
 //     try {
-//       // Recursively search yamlObj and replace codeBlock elements with code from reading files
-//       if (yamlObj.codeBlock) {
-//         yamlObj.codeBlock = this.readFromFile(`${challengeFolder}/${challengeId}/${yamlObj.codeBlock}`);
+//       // Recursively search yamlObj and replace codeblock elements with code from reading files
+//       if (yamlObj.codeblock) {
+//         yamlObj.codeblock = this.readFromFile(`${challengeFolder}/${challengeId}/${yamlObj.codeblock}`);
 //       }
 //       else if (typeof yamlObj === 'object' && yamlObj !== null) {
 //         (Array.isArray(yamlObj) ? yamlObj : Object.entries(yamlObj)).forEach((subYamlObj) => {

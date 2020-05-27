@@ -5,7 +5,7 @@ const yamlController = {};
 
 yamlController.getTracksList = async (req, res, next) => {
   try {
-    res.locals.tracks = await yamlUtil.getSpecificYaml(paths.TRACKS_LIST);
+    res.locals.trackList = await yamlUtil.getSpecificYaml(paths.TRACKS_LIST);
     return next();
   }
   catch (e) {

@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 app.get('/api/tracks', 
   yamlController.getTracksList,
   (req, res) => {
-    return res.status(200).json({ success: true, tracks: res.locals.tracks });
+    return res.status(200).json({ success: true, trackList: res.locals.trackList });
   },
 );
 
