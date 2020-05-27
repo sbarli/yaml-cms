@@ -65,7 +65,7 @@ yamlController.getSubunit = async (req, res, next) => {
   const { subunitName } = req.params;
   try {
     if (!subunitName) throw new Error('expected subunitName in req.params');
-    res.locals.subunit = await yamlUtil.getSpecificYaml(yamlUtil.formatFilePath(paths.SUBUNITS_DIR, subunitName, subunitName));
+    res.locals.subunit = await yamlUtil.getSpecificYaml(yamlUtil.formatFilePath(paths.SUBUNITS_DIR, subunitName, subunitName), `${paths.SUBUNITS_DIR}/${subunitName}/`);
     return next();
   }
   catch (e) {

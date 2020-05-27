@@ -23,6 +23,23 @@ const readFileFromViews = (viewsPathToFile) => {
   }
 };
 
+const readFileFromViewsSync = (viewsPathToFile) => {
+  try {
+    if (typeof viewsPathToFile !== 'string')
+      throw new Error('expected viewsPathToFile to be a string');
+    return fs.readFileSync(
+      path.join(__dirname, '../views/', viewsPathToFile),
+      'utf-8'
+    );
+  } catch (e) {
+    console.log(
+      `ERROR: ${moment()}: synchronously reading from views dir in yamlUtil.js: `,
+      e
+    );
+    throw e;
+  }
+};
+
 const readDirFromViews = (viewsPathToDir) => {
   try {
     if (typeof viewsPathToDir !== 'string')
@@ -42,4 +59,5 @@ module.exports = {
   readFileAsync,
   readDirFromViews,
   readFileFromViews,
+  readFileFromViewsSync,
 };
