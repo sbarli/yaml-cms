@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Nunito+Sans:400,700&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif; */
+
+:root {
+  /* color variables */
+  --teal-light: #4F8CBB;
+  --teal-medium: #2A5270;
+  --teal-dark: #1A3346;
+  --color-primary-light: #5D5DC5;
+  --color-primary-medium: #353579;
+  --color-primary-dark: #20204C;
+  --charcoal-dark: #0B0B0B;
+  --charcoal-medium: #373737;
+  --charcoal-light: #5D5C5D;
+  --gray-light: #fcfcfc;
+  --gray-medium: #efefef;
+  --gray-dark: #d8d8d8;
+  /* font-related variables */
+  --font-stack-all: -apple-system, BlinkMacSystemFont, 'Nunito Sans', 'Josefin Sans', sans-serif;
+  --font-stack-default: -apple-system, BlinkMacSystemFont, 'Nunito Sans', sans-serif;
+  --font-stack-headers: 'Josefin Sans', sans-serif;
+  --font-stack-code: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  --font-size-default: 1.8rem;
+  --font-size-sm: 1.5rem;
+  --font-weight-default: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  /* form-related variables */
+  --form-border: 1px solid;
+  /* border-related variables */
+  --radius-default: 5px;
+  --border-default: 1px solid black;
+  --box-shadow-default: 1.5px 0.5px 1.8px;
+}
