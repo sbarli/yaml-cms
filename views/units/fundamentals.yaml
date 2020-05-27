@@ -1,14 +1,14 @@
 id: fundamentals
 header: 
-  content: Fundamentals
+  content: Unit - Fundamentals
   size: h2
-tagline:
-  - 'In the unit we’ll cover the basics of JavaScript. It is designed to give a starting overview so you can move on to tackle more advanced challenges.'
-topics:
-  - unorderedList:
-      - Intro to JS
-      - Primitive Data Types
-      - Composite Data Types
+content:
+  - tagline: 'In the unit we’ll cover the basics of JavaScript. It is designed to give a starting overview so you can move on to tackle more advanced challenges.'
+  - topics:
+      - unorderedList:
+        - listItem: Intro to JS
+        - listItem: Primitive Data Types
+        - listItem: Composite Data Types
 subunits:
   - read-what-is-js
   - read-primitive-data-types
