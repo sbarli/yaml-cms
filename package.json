@@ -23,6 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "NODE_ENV=development concurrently \"npm run start:server\" \"npm run start:app\"",
+    "dev:server": "NODE_ENV=development npm run start:server",
     "start:app": "react-scripts start",
     "start:server": "nodemon server/server.js"
   },
