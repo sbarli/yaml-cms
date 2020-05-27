@@ -41,7 +41,6 @@ export const generateContent = (rawContent, contentId) => {
         case contentKeyMap.NESTED_CONTENT:
           return generateContent(rawContent[key], `${contentId}-content`);
         default:
-          console.log(`hit default case for key ${key}`);
           return null;
       }
     })

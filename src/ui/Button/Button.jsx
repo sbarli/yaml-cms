@@ -45,7 +45,7 @@ const buttonSizes = {
 
 const themes = {
   primaryOutline: createOutlineButton('var(--color-primary-light)', 'var(--color-primary-medium)', 'var(--color-primary-medium)', 'var(--color-primary-medium)'),
-  primaryFilled: createFilledButton('var(--color-primary-light)', 'var(--color-primary-medium)', 'var(--charcoal-dark)'),
+  primaryFilled: createFilledButton('var(--color-primary-light)', 'var(--color-primary-medium)', 'var(--gray-light)'),
   transparent: `
     background: transparent;
     border: none;
