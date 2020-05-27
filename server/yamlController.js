@@ -1,5 +1,5 @@
-const yamlUtil = require('./yamlUtil');
-const { paths } = require('./constants');
+const yamlUtil = require('./utils/yamlUtil');
+const { paths } = require('./utils/constants');
 
 const yamlController = {};
 
