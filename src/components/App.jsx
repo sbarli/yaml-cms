@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ContentPage from './components/ContentPage';
-import './App.css';
+import ContentPage from './ContentPage';
 
 function App() {
   const [loading, setLoading] = useState(true);
