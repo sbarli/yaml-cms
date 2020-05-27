@@ -1,11 +1,18 @@
 {
   "name": "yaml-cms",
   "version": "0.1.0",
+  "description": "a custom content management system using YAML, React, and Node",
+  "author": "samanthasalley",
   "private": true,
+  "proxy": "http://localhost:8080",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1",
+    "js-yaml": "^3.14.0",
+    "moment": "^2.26.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -14,7 +21,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "NODE_ENV=development concurrently \"npm run start:server\" \"npm run start:app\"",
+    "start:app": "react-scripts start",
+    "start:server": "nodemon server/server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
