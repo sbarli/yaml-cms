@@ -4,6 +4,9 @@
   "description": "a custom content management system using YAML, React, and Node",
   "author": "samanthasalley",
   "private": true,
+  "engines": {
+    "node": ">=13.5.0"
+  },
   "proxy": "http://localhost:8080",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
